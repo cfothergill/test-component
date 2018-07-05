@@ -19,7 +19,6 @@ const ToggleRow = ({
 }: Props) => (
   <div className={cx({
     'ToggleRow': true,
-    'ToggleRow--toggled': value === 1,
     'ToggleRow--disabled': disabled,
   })}>
     {choices.map((choice, idx) => (
